@@ -1,0 +1,98 @@
+$(document).ready(function () {
+	$('.owl-carousel-1').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		dots:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
+});
+$(document).ready(function () {
+	$('.owl-carousel-2').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:0
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:3
+			}
+		}
+	})
+});
+$(document).ready(function () {
+	$('.owl-carousel-3').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:0
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:4
+			}
+		}
+	})
+});
+$(document).ready(function () {
+	$('.owl-carousel-5').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:0
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:1
+			}
+		}
+	})
+});
+$(document).ready(function () {
+	$('.owl-carousel-6').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:0
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:3
+			}
+		}
+	})
+});
+$(document).ready(function(){
+    $("ul.nav-bars a").click(function (e) {
+        e.preventDefault();  
+          $(this).tab('show');
+      });
+      
+});
